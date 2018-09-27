@@ -1,0 +1,40 @@
+{
+  "name": "@urfri/antd-cropper",
+  "version": "0.0.1",
+  "description": "An easy image cropper implements by ant-design.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "npx webpack --config ./webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lzszone/antd-cropper.git"
+  },
+  "keywords": [
+    "cropper",
+    "react",
+    "antd"
+  ],
+  "author": "lzszone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lzszone/antd-cropper/issues"
+  },
+  "homepage": "https://github.com/lzszone/antd-cropper#readme",
+  "peerDependencies": {
+    "@urfri/react-cropper": "0.0.2",
+    "antd": "^3.9.3",
+    "react": "^16.5.2",
+    "cropperjs": "^1.4.1",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1"
+  }
+}
