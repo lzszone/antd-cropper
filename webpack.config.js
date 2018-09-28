@@ -34,18 +34,6 @@ module.exports = {
       commonjs: 'react-dom',
       amd: 'react-dom'
     },
-    cropperjs: {
-      root: 'Cropper',
-      commonjs2: 'cropperjs',
-      commonjs: 'cropperjs',
-      amd: 'cropperjs'
-    },
-    '@urfri/react-cropper': {
-      root: 'ReactCropper',
-      commonjs: '@urfri/react-cropper',
-      commonjs2: '@urfri/react-cropper',
-      amd: '@urfri/react-cropper'
-    },
     antd: 'antd'
   }
 }
