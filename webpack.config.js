@@ -46,11 +46,6 @@ module.exports = {
       commonjs2: '@urfri/react-cropper',
       amd: '@urfri/react-cropper'
     },
-    antd: {
-      root: 'antd',
-      commonjs: 'antd',
-      commonjs2: 'antd',
-      amd: 'antd'
-    }
+    antd: 'antd'
   }
 }
