@@ -23,15 +23,20 @@
   },
   "homepage": "https://github.com/lzszone/antd-cropper#readme",
   "peerDependencies": {
-    "antd": "^3.9.3",
     "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "antd": "^3.9.3"
   },
   "devDependencies": {
     "@babel/core": "^7.1.0",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.2",
+    "babel-plugin-import": "^1.9.1",
+    "css-loader": "^1.0.0",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "style-loader": "^0.23.0",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.1"
   },
