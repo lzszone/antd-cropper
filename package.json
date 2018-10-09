@@ -1,6 +1,6 @@
 {
   "name": "@urfri/antd-cropper",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An easy image cropper implements by ant-design.",
   "main": "./dist/index.js",
   "scripts": {
