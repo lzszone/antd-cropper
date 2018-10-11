@@ -54,7 +54,7 @@ export default class AntdCropper extends Component {
 
   render() {
     const {
-      props: {toBase64, toBlob, confirmText, aspectRatio},
+      props: {toBase64, toBlob, confirmText, aspectRatio, width, height},
       state: {ratio, src, cropperRef},
       handleRatioChange,
       handleConfirm
@@ -62,9 +62,9 @@ export default class AntdCropper extends Component {
 
     return (
       <div>
-        <ReactCropper ref={cropperRef} aspectRatio={aspectRatio} toBase64={toBase64} toBlob={toBlob} ratio={ratio} src={src} />
+        <ReactCropper ref={cropperRef} aspectRatio={aspectRatio} toBase64={toBase64} toBlob={toBlob} ratio={ratio} src={src} width={width} height={height}/>
         <div>
-          <Slider onChange={handleRatioChange} step={0.01} min={0.2} max={2} horizontal value={ratio} />
+          <Slider onChange={handleRatioChange} step={0.005} min={0.2} max={2} horizontal value={ratio} />
         </div>
         <Button onClick={handleConfirm} >{confirmText}</Button>
       </div>
